@@ -1,20 +1,31 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer , DarkTheme } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Home from './Screen/Home/Home';
+import Song from './Screen/Song/Song';
+import Podcast from './Screen/Podcast/Podcast';
+import Artists from './Screen/Artists/Artists';
+import About from './Screen/About/About';
+import Privecy from './Screen/Privecy/Privecy';
+
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+    <NavigationContainer theme={DarkTheme}>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Song" component={Song}/>
+        <Stack.Screen name='Podcast' component={Podcast}/>
+        <Stack.Screen name='Artists' component={Artists}/>
+        <Stack.Screen name='About' component={About}/>
+        <Stack.Screen name='Privecy' component={Privecy}/>
+      </Stack.Navigator>
+    </NavigationContainer>
+    <StatusBar style="light" />
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
