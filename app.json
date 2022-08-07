@@ -1,13 +1,12 @@
 {
   "expo": {
     "name": "islavo",
-    "slug": "islavo",
     "version": "0.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splashthree.png",
+      "image": "./assets/splashtwo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -26,8 +25,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package" : "com.islavo",
-      "versionCode":22 ,
-      "buildType": "apk"
+      "versionCode":23 
     },
     "web": {
       "favicon": "./assets/favicon.png"
