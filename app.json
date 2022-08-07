@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "islavo",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splashtwo.png",
+      "image": "./assets/splashnew.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,7 +25,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package" : "com.islavo",
-      "versionCode":23 
+      "versionCode":24 
     },
     "web": {
       "favicon": "./assets/favicon.png"
