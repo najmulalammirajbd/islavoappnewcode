@@ -6,13 +6,13 @@ export default function Artists() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <FontAwesome5 name="user" size={24} color="white" />
-            <Text style={{ color: 'white', fontSize: 25 }}>Artists</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Mamunur Rashid</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Sheikh Afzal Hussain Sadi</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Sadikur Rahman</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Mushir Alom Mijan</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Sayeem Ahmod Emon</Text>
-            <Text style={{ color: 'white', fontSize: 17 }}>Abdullah Al Farhan</Text>
+            <Text style={{ color: 'white', fontSize: 25 }}>artists</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>mamunur rashid</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>sheikh afzal hussain sadi</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>sadikur rahman</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>mushir alom mijan</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>sayeem ahmod emon</Text>
+            <Text style={{ color: 'white', fontSize: 17 }}>abdullah al farhan</Text>
             <HeaderTwo backBtn={true}/>
         </View>
     );

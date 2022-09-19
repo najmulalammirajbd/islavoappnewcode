@@ -25,7 +25,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package" : "com.islavo",
-      "versionCode":27 
+      "versionCode":28 
     },
     "web": {
       "favicon": "./assets/favicon.png"

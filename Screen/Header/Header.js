@@ -10,10 +10,10 @@ export default function Header({backBtn}) {
     <View style={styles.container}>
      { backBtn && (
         <Pressable onPress={()=> {navigation.goBack()}}>
-            <AntDesign style={{marginLeft:10}}  name="leftcircle" size={24} color="white" />
+            <AntDesign style={{marginLeft:10 , marginTop:10 }}  name="leftcircle" size={24} color="white" />
         </Pressable>
      )}
-     <Image style={styles.logo} source ={require('../../assets/appicon.png')}/>
+     <Image style={styles.logo} source ={require('../../assets/logo.png')}/>
     </View>
   );
 }
@@ -23,11 +23,12 @@ const styles = StyleSheet.create({
     borderBottomWidth:0.3,
     borderBottomColor:'white',
     flexDirection:'row',
-    alignItems:'center'
+    alignItems:'center',
+    marginTop:10
   },
   logo:{
-    width:110,
-    height:100,
+    width:85,
+    height:60,
     alignItems:'flex-start',
     marginBottom:0,
     resizeMode:'contain'

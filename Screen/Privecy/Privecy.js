@@ -4,7 +4,7 @@ export default function Privecy() {
     return (
         <ScrollView>
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' , marginTop:20 }}>
-            <Text style={{ color: 'white', fontSize: 13 , marginTop:30 , marginBottom:10 }}>Privacy Policy for islavo</Text>
+            <Text style={{ color: 'white', fontSize: 13 , marginTop:30 , marginBottom:10 }}>privacy policy for islavo</Text>
             <Text style={{ color: 'white', fontSize: 7 , paddingRight:20 , paddingLeft:20 , textAlign:'center' }}>At islavo, accessible from https://play.google.com/store/apps/details?id=com.islavo, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by islavo and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.

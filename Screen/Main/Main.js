@@ -9,25 +9,25 @@ export default function Main() {
             <View style={styles.container} >
       <Pressable onPress = {() => navigation.navigate('Song')} style={styles.textone}>
       <Ionicons name="md-musical-notes-outline" size={28} color="white" />
-        <Text style={{color:'white'}}>islavo Song</Text>
+        <Text style={{color:'white'}}>islavo song</Text>
       </Pressable>
     </View>
     <View style={styles.container} >
     <Pressable onPress = {() => navigation.navigate('Podcast')} style={styles.textone}>
     <Ionicons name="ios-mic-outline" size={28} color="white" />
-      <Text style={{color:'white'}}>islavo Podcast</Text>
+      <Text style={{color:'white'}}>islavo show</Text>
     </Pressable>
   </View>
   <View style={styles.container} >
     <Pressable onPress = {() => navigation.navigate('Artists')} style={styles.textone}>
     <FontAwesome5 name="user" size={24} color="white" />
-      <Text style={{color:'white' , marginTop:5}}>islavo Artists</Text>
+      <Text style={{color:'white' , marginTop:5}}>islavo artists</Text>
     </Pressable>
   </View>
   <View style={styles.container} >
     <Pressable onPress = {() => navigation.navigate('About')} style={styles.textone}>
     <MaterialCommunityIcons name="dots-horizontal" size={28} color="white" />
-      <Text style={{color:'white'}}>islavo About And Contact</Text>
+      <Text style={{color:'white'}}>islavo about and contact</Text>
     </Pressable>
   </View>
         </View>
