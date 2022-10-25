@@ -15,7 +15,7 @@ export default function Media() {
                         size={30}
                     ></FontAwesome5></Text>
                 <Text style={{ color: 'white', fontSize: 17, marginLeft: 5 }}
-                    onPress={() => Linking.openURL('https://www.youtube.com/channel/UCaR8zv6Xatmk-NScqexI3Ww')}><FontAwesome5
+                    onPress={() => Linking.openURL('https://www.youtube.com/islavoofficial')}><FontAwesome5
                         name="youtube-square"
                         size={30}
                     ></FontAwesome5></Text>
